@@ -90,7 +90,7 @@ but won't be primary.
 > **Manual alternative:** You can also edit the Technology Stack section in
 > `OPENCODE.md` directly if you prefer.
 
-### Step 0.3: Verify Hooks Are Working
+### Step 0.3: Verify Hooks Are Working (WIP)
 
 Start a new Opencode session. You should see output from the
 `session-start.sh` hook:
