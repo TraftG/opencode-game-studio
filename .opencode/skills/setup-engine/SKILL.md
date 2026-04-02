@@ -1,6 +1,6 @@
 ---
 name: setup-engine
-description: "Configure the project's game engine and version. Pins the engine in CLAUDE.md, detects knowledge gaps, and populates engine reference docs via WebSearch when the version is beyond the LLM's training data."
+description: "Configure the project's game engine and version. Pins the engine in OPENCODE.md, detects knowledge gaps, and populates engine reference docs via WebSearch when the version is beyond the LLM's training data."
 argument-hint: "[engine version] or no args for guided selection"
 user-invocable: true
 allowed-tools: Read, Glob, Grep, Write, Edit, WebSearch, WebFetch, Task
@@ -69,9 +69,9 @@ Once the engine is chosen:
 
 ---
 
-## 4. Update CLAUDE.md Technology Stack
+## 4. Update OPENCODE.md Technology Stack
 
-Read `CLAUDE.md` and update the Technology Stack section. Replace the
+Read `OPENCODE.md` and update the Technology Stack section. Replace the
 `[CHOOSE]` placeholders with the actual values:
 
 **For Godot:**
@@ -102,7 +102,7 @@ Read `CLAUDE.md` and update the Technology Stack section. Replace the
 
 ## 5. Populate Technical Preferences
 
-After updating CLAUDE.md, create or update `.claude/docs/technical-preferences.md` with
+After updating OPENCODE.md, create or update `.opencode/docs/technical-preferences.md` with
 engine-appropriate defaults. Read the existing template first, then fill in:
 
 ### Engine & Language Section
@@ -229,7 +229,7 @@ Create the full reference doc set by searching the web:
 
 ---
 
-## 8. Update CLAUDE.md Import
+## 8. Update OPENCODE.md Import
 
 Update the `@` import under "Engine Version Reference" to point to the
 correct engine:
@@ -285,7 +285,7 @@ Engine Setup Complete
 Engine:          [name] [version]
 Knowledge Risk:  [LOW/MEDIUM/HIGH]
 Reference Docs:  [created/skipped]
-CLAUDE.md:       [updated]
+OPENCODE.md:       [updated]
 Tech Prefs:      [created/updated]
 Agent Config:    [verified]
 
@@ -305,5 +305,5 @@ Next Steps:
 - NEVER guess an engine version — always verify via WebSearch or user confirmation
 - NEVER overwrite existing reference docs without asking — append or update
 - If reference docs already exist for a different engine, ask before replacing
-- Always show the user what you're about to change before making CLAUDE.md edits
+- Always show the user what you're about to change before making OPENCODE.md edits
 - If WebSearch returns ambiguous results, show the user and let them decide

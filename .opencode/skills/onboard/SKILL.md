@@ -8,9 +8,9 @@ allowed-tools: Read, Glob, Grep, Write
 
 When this skill is invoked:
 
-1. **Read the CLAUDE.md** for project overview and standards.
+1. **Read the OPENCODE.md** for project overview and standards.
 
-2. **Read the relevant agent definition** from `.claude/agents/` if a specific
+2. **Read the relevant agent definition** from `.opencode/agents/` if a specific
    role is specified.
 
 3. **Scan the codebase** for the relevant area:
@@ -45,7 +45,7 @@ When this skill is invoked:
 |------|---------|--------------|
 
 ## Current Standards and Conventions
-[Summary of conventions relevant to this role from CLAUDE.md and agent definition]
+[Summary of conventions relevant to this role from OPENCODE.md and agent definition]
 
 ## Current State of Your Area
 [What has been built, what is in progress, what is planned next]

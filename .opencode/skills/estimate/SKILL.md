@@ -11,7 +11,7 @@ When this skill is invoked:
 1. **Read the task description** from the argument. If the description is too
    vague to estimate meaningfully, ask for clarification before proceeding.
 
-2. **Read CLAUDE.md** for project context: tech stack, coding standards,
+2. **Read OPENCODE.md** for project context: tech stack, coding standards,
    architectural patterns, and any estimation guidelines.
 
 3. **Read relevant design documents** from `design/gdd/` if the task relates

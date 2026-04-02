@@ -9,7 +9,7 @@ allowed-tools: Read, Glob, Grep
 When this skill is invoked:
 
 1. **Read the art bible or asset standards** from the relevant design docs and
-   the CLAUDE.md naming conventions.
+   the OPENCODE.md naming conventions.
 
 2. **Scan the target asset directory** using Glob:
    - `assets/art/**/*` for art assets

@@ -70,8 +70,8 @@ The project progresses through these stages:
 ### Gate: Technical Setup → Pre-Production
 
 **Required Artifacts:**
-- [ ] Engine chosen (CLAUDE.md Technology Stack is not `[CHOOSE]`)
-- [ ] Technical preferences configured (`.claude/docs/technical-preferences.md` populated)
+- [ ] Engine chosen (OPENCODE.md Technology Stack is not `[CHOOSE]`)
+- [ ] Technical preferences configured (`.opencode/docs/technical-preferences.md` populated)
 - [ ] At least 1 Architecture Decision Record in `docs/architecture/`
 - [ ] Engine reference docs exist in `docs/engine-reference/`
 

@@ -23,7 +23,7 @@ Do NOT show these results unprompted — they inform your recommendations, not
 the conversation opener.
 
 Check:
-- **Engine configured?** Read `.claude/docs/technical-preferences.md`. If the
+- **Engine configured?** Read `.opencode/docs/technical-preferences.md`. If the
   Engine field contains `[TO BE CONFIGURED]`, the engine is not set.
 - **Game concept exists?** Check for `design/gdd/game-concept.md`.
 - **Source code exists?** Glob for source files in `src/` (`*.gd`, `*.cs`,
@@ -42,7 +42,7 @@ self-assessment and to tailor follow-up recommendations.
 
 This is the first thing the user sees. Present these 4 options clearly:
 
-> **Welcome to Claude Code Game Studios!**
+> **Welcome to Opencode Game Studios!**
 >
 > Before I suggest anything, I'd like to understand where you're starting from.
 > Where are you at with your game idea right now?

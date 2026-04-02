@@ -12,7 +12,7 @@ When this skill is invoked:
    question this prototype must answer. If the concept is vague, state the
    question explicitly before proceeding.
 
-2. **Read CLAUDE.md** for project context and the current tech stack. Understand
+2. **Read OPENCODE.md** for project context and the current tech stack. Understand
    what engine, language, and frameworks are in use so the prototype is built
    with compatible tooling.
 

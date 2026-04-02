@@ -10,7 +10,7 @@ When this skill is invoked:
 
 1. **Read the target file(s)** in full.
 
-2. **Read the CLAUDE.md** for project coding standards.
+2. **Read the OPENCODE.md** for project coding standards.
 
 3. **Identify the system category** (engine, gameplay, AI, networking, UI, tools)
    and apply category-specific standards.

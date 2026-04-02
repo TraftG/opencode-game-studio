@@ -11,7 +11,7 @@ When this skill is invoked:
    - If a system name: focus profiling on that specific system
    - If `full`: run a comprehensive profile across all systems
 
-2. **Read performance budgets** — Check for existing performance targets in design docs or CLAUDE.md:
+2. **Read performance budgets** — Check for existing performance targets in design docs or OPENCODE.md:
    - Target FPS (e.g., 60fps = 16.67ms frame budget)
    - Memory budget (total and per-system)
    - Load time targets
